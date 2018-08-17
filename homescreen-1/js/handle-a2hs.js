@@ -22,6 +22,7 @@ window.addEventListener(`beforeinstallprompt`, event => {
   button.addEventListener(`click`, event => {
     // once clicked, there's no second chance
     button.disabled = true;
+    button.classList.remove(`--flash`);
 
     // show the prompt
     deferredPrompt.prompt();
