@@ -13,7 +13,7 @@ window.addEventListener(`beforeinstallprompt`, event => {
   // store this event for later use.
   deferredPrompt = event;
 
-  const button = douemnt.querySelector(INSTALL_BUTTON_CLASS);
+  const button = document.querySelector(INSTALL_BUTTON_CLASS);
   button.disabled = false;
   button.classList.add(`--flash`);
 
