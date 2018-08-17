@@ -17,11 +17,13 @@ window.addEventListener(`beforeinstallprompt`, event => {
 
   const button = document.querySelector(INSTALL_BUTTON_CLASS);
   button.disabled = false;
+  button.hidden = false;
   button.classList.add(`--flash`);
 
   button.addEventListener(`click`, event => {
     // once clicked, there's no second chance
     button.disabled = true;
+    button.hidden = true;
     button.classList.remove(`--flash`);
 
     // show the prompt
