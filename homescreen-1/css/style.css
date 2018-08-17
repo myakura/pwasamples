@@ -41,7 +41,7 @@ body {
 
 }
 
-.install-button__button {
+.install-button {
   -webkit-appearance: none;
   border: 1px solid var(--theme-text);
   padding: 0.5rem;
@@ -51,11 +51,11 @@ body {
   color: var(--theme-text);
 }
 
-.install-button__button[disabled] {
+.install-button[disabled] {
   opacity: 0.5;
 }
 
-.install-button__button.--flash {
+.install-button.--flash {
   animation: flash 2000ms infinite;
 }
 
