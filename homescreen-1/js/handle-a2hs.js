@@ -7,6 +7,8 @@ let deferredPrompt = null;
 
 
 window.addEventListener(`beforeinstallprompt`, event => {
+  console.log(`ready to install`);
+
   // for Chrome ~67
   event.preventDefault();
 
