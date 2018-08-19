@@ -3,7 +3,7 @@
 :root {
   font-size: 10px;
 
-  --theme-background: dodgerblue;
+  --theme-background: hsl(210, 100%, 56%);
   --theme-text: hsl(0, 100%, 100%);
   --content-background: hsl(0, 100%, 100%);
   --content-text: hsl(0, 0%, 20%);
