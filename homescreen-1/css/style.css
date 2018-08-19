@@ -56,7 +56,7 @@ body {
 }
 
 .install-button.--flash {
-  animation: flash 2000ms infinite;
+  animation: flash 2000ms infinite ease-out;
 }
 
 
