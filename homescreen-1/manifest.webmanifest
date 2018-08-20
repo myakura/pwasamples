@@ -17,5 +17,5 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": "/homescreen-1/",
-  "theme_color": "hsl(210, 100%, 48%)"
+  "theme_color": "hsl(210, 100%, 40%)"
 }
