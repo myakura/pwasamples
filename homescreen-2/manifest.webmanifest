@@ -1,0 +1,21 @@
+{
+  "short_name": "Homescreen 2",
+  "name": "PWA Sample: Homescreen 2",
+  "icons": [
+    {
+      "src": "/homescreen-2/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/homescreen-2/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/homescreen-2/?utm_source=homescreen",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/homescreen-2/",
+  "theme_color": "hsl(30, 100%, 40%)"
+}
